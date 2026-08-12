@@ -1,0 +1,4 @@
+copy into PARKING_NEW
+from @int_stage
+ON_ERROR='CONTINUE'
+file_format = (type = 'csv',error_on_column_count_mismatch=false);
