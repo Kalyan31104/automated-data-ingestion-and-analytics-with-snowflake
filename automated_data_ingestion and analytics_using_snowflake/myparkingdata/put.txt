@@ -1,1 +1,0 @@
-put file://D:\myparkingdata\dataset\* @int_stage;
